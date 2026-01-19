@@ -1,0 +1,459 @@
+/* global style*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+
+
+}
+
+.clear-float {
+    clear: both;
+}
+
+nav figure {
+    float: left;
+    width: 100px;
+    height: 50px;
+
+}
+
+nav figure img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav-links {
+    width: 45%;
+    float: right;
+    padding-top: 15px;
+
+
+
+}
+
+section {
+
+    padding: 50px 0;
+}
+
+.home {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.home-text {
+
+    text-align: center;
+    color: white;
+    font-family: "Alegreya";
+}
+
+.home-text .welcome {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: "Alegreya";
+}
+
+.home-text .Family {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: "Alegreya";
+}
+
+.home-text .desc {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+.home header {
+    width: 40%;
+    margin: 300px auto;
+}
+
+.home .layer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.learnMore-button {
+    color: white;
+    font: 16px alegeya Sans;
+    background: #8E7754;
+    margin: 0px 0px 12px;
+    padding: 15px 28px;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    border-color: #8E7754;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+}
+
+.Contact-button {
+    color: white;
+    font: 16px Alefreya Sans;
+    margin: 0px 0px 12px 12px;
+    background: none;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-color: white;
+    border-radius: 4px;
+    border: 2px solid;
+    padding: 15px 28px;
+}
+
+.who {
+    background-color: white;
+
+}
+
+
+.who figure {
+    width: 45%;
+    float: left;
+
+}
+
+.who figure img {
+    width: 100%;
+}
+
+
+.who-details {
+    width: 45%;
+    float: right;
+    color: #686868;
+    font: 32px Alegreya;
+
+
+
+}
+
+.who-details,
+h3 {
+    margin: 30px 0;
+
+}
+
+.who-details p,
+li {
+    margin: 30px 0;
+    color: #686868;
+    font: Alegreya Sans;
+    font-size: 14px;
+    font-weight: 300px;
+
+
+
+}
+
+
+.Location {
+    background-color: #F8F8F8;
+
+}
+
+.Location figure {
+    width: 45%;
+
+    float: right;
+
+}
+
+img {
+    width: 100%;
+}
+
+.Our-location {
+    width: 45%;
+    height: 100%;
+    float: left;
+
+}
+
+.Our-location p {
+    margin: 30px 0;
+    font-size: 17px;
+    color: #686868;
+}
+
+
+
+
+.Our-Baking {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.Our-Baking h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #303030;
+}
+
+.Our-Baking .subtitle {
+    font-size: 15px;
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+
+.baking-items .item {
+    width: 33%;
+    float: left;
+    padding: 0 5px;
+    border: 1px solid bla;
+}
+
+
+
+.baking-items .item h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0 10px;
+    color: #303030;
+}
+
+.baking-items .item p {
+    font-size: 14px;
+    color: #686868;
+    padding: 0 10px;
+}
+
+
+
+
+.contact-info {
+    width: 45%;
+    float: left;
+}
+
+.contact-info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #1d1d1d;
+}
+
+.contact-desc {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 18px;
+}
+
+.contact-list .icon {
+    width: 36px;
+    height: 36px;
+    background-color: #a57c52;
+    color: #fff;
+    border-radius: 50%;
+
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+
+.contact-section iframe {
+    width: 45%;
+    float: right;
+
+
+}
+
+
+
+
+.details-section {
+    background-color: #3F3C37;
+    color: #BFBFBF;
+    padding: 70px 0;
+    font-family: Georgia, serif;
+}
+
+
+.details-col {
+    float: left;
+    width: 24%;
+}
+
+.details-col h3 {
+    color: #BFBFBF;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.details-col p {
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.details-col ul {
+    list-style: none;
+    color: #BFBFBF;
+}
+
+.details-col ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #BFBFBF;
+    color: #BFBFBF;
+    font-size: 14px;
+}
+
+.contact-list li {
+    color: #BFBFBF;
+    border-bottom: none;
+    padding: 12px 0;
+}
+
+.simple-footer {
+    background-color: #353129;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: #aaa;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.footer-logo {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto 20px;
+
+}
+
+.footer-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer-text {
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+
+.footer-social a {
+    width: 36px;
+    height: 36px;
+    background-color: #4a4743;
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 50%;
+
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: #a57c52;
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+.who ,
+
+    .who-details p,
+    h3,
+    li ,
+
+    .Location ,
+
+    .Our-location p ,
+    .Our-Baking ,
+
+    .baking-items .item h3,
+    h2,
+    .item p ,
+
+    .Our-Baking h2 ,
+    .contact-section ,
+
+    .contact-info h2,
+    .contact-desc {
+        background-color: black;
+        color: white;
+
+    }
+
+    .who .container figure,
+    .who-details,
+    .details-col ,.Location .container figure,
+    .Location .container .Our-location,
+    .Location .container .Our-location h2,
+    .baking-items .item , .contact-section .container iframe 
+    {
+        width: 100%;
+        float: none;
+        
+    }
+
+    .contact-info{
+        width: 100%;
+        text-align: center;
+    }
+}
