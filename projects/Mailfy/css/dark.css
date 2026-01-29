@@ -1,0 +1,156 @@
+/* Toggle icons */
+.dark-btn .sun {
+  display: none;
+}
+
+#dark-toggle:checked + .dark-btn .moon {
+  display: none;
+}
+
+#dark-toggle:checked + .dark-btn .sun {
+  display: inline;
+}
+
+/* Dark Mode */
+body:has(#dark-toggle:checked) {
+  background: #000;
+  color: white;
+}
+
+body:has(#dark-toggle:checked) .navbar {
+  background: #000000b9;
+}
+
+body:has(#dark-toggle:checked) .nav-link,
+body:has(#dark-toggle:checked) .logo h2 {
+  color: #aaa;
+}
+
+body:has(#dark-toggle:checked) .logo h2::after {
+  background: var(--darkColor);
+}
+
+
+.mobile-menu{
+    width: 50%;
+    height: auto;
+    padding-right: 0%;
+}
+/* Mobile Menu */
+.mobile-menu li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #37373f;
+}
+
+    /*---------------- Home Section ----------------*/
+
+    body:has(#dark-toggle:checked) .Home {
+        background-color: #111;
+        color: #fff;
+    }
+
+    /* Home buttons */
+    body:has(#dark-toggle:checked) .Home .btn1 {
+        background-color: var(--darkColor) !important;
+        border-color: var(--darkColor) !important;
+        color: #000 !important;
+    }
+
+    body:has(#dark-toggle:checked) .Home .btn2 {
+        color: #fff !important;
+    }
+
+    /* Watch Video link in header */
+    body:has(#dark-toggle:checked) .Home .watch-video {
+        color: #fff !important;
+    }
+
+    /*---------------- Chefs Section ----------------*/
+
+    body:has(#dark-toggle:checked) .Chefs {
+        background-color: #000;
+    }
+
+    body:has(#dark-toggle:checked) .ChefsText h3 {
+        color: #aaa !important;
+    }
+
+    body:has(#dark-toggle:checked) .ChefsText p span {
+        color: var(--darkColor) !important;
+    }
+
+    /*---------------- Gallery Section ----------------*/
+
+    body:has(#dark-toggle:checked) .Gallary {
+        background-color: #111;
+    }
+
+    /*---------------- Cards and Boxes ----------------*/
+
+    body:has(#dark-toggle:checked) .card,
+    body:has(#dark-toggle:checked) .info-box,
+    body:has(#dark-toggle:checked) .form-box {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+
+    /*---------------- Contact Section ----------------*/
+
+    body:has(#dark-toggle:checked) .contact .container .row form button {
+        background-color: var(--darkColor) !important;
+        border-color: var(--darkColor) !important;
+        color: #000 !important;
+    }
+
+    /*---------------- Footer Section ----------------*/
+
+    body:has(#dark-toggle:checked) .footer {
+        background-color: #000;
+        color: #fff;
+    }
+
+    body:has(#dark-toggle:checked) .footer button,
+    body:has(#dark-toggle:checked) .newsletter-form button {
+        background-color: var(--darkColor) !important;
+        border-color: var(--darkColor)!important;
+        color: #000 !important;
+    }
+
+    /* Footer circles & icons */
+    body:has(#dark-toggle:checked) .footer .red-circle,
+    body:has(#dark-toggle:checked) .footer .logo-icon {
+        background-color: var(--darkColor) !important;
+        color: #000 !important;
+    }
+
+    /*---------------- Circles & Icons ----------------*/
+
+    body:has(#dark-toggle:checked) .red-circle,
+    body:has(#dark-toggle:checked) .info-box i,
+    body:has(#dark-toggle:checked) .logo-icon {
+        background-color: var(--darkColor) !important;
+        color: #000 !important;
+    }
+
+    /*---------------- Spans & Text ----------------*/
+
+    body:has(#dark-toggle:checked) span,
+    body:has(#dark-toggle:checked) .ChefsText p span {
+        color: var(--darkColor) !important;
+    }
+
+    /* Optional: smooth transition for all sections */
+    body:has(#dark-toggle:checked),
+    body:has(#dark-toggle:checked) nav,
+    body:has(#dark-toggle:checked) .Home,
+    body:has(#dark-toggle:checked) .Chefs,
+    body:has(#dark-toggle:checked) .Gallary,
+    body:has(#dark-toggle:checked) .card,
+    body:has(#dark-toggle:checked) .footer {
+        transition: background-color 0.4s ease, color 0.4s ease;
+    }
